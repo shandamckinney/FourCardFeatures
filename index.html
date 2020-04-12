@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body { background-color: hsl(0, 0%, 98%);}
+    p { font-family: 'Poppins', sans-serif; font-weight: 400; color: hsl(229, 6%, 66%); font-size: .75rem; margin-bottom: 3rem;}
+    h5 { font-family: 'Poppins', sans-serif; font-weight: 600; color:  hsl(234, 12%, 34%); margin-top: .5rem; margin-bottom: .75rem;}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .title-one { font-family: 'Poppins', sans-serif; font-weight: 200; font-size: 2rem; color: hsl(229, 6%, 66%);}
+    .title-two { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 1.95rem; color: hsl(234, 12%, 34%);}
+    .title-three { font-family: 'Poppins', sans-serif; font-weight: 400; font-size: .75rem; width: 27rem; margin-left: auto; margin-right: auto; color: hsl(229, 6%, 66%); margin-bottom: 4rem;}
+
+    .top { text-align: center; margin-top: 3rem; margin-bottom: 2rem;}
+    .card { background-color: white; width: 19rem; height: 14rem; padding: 1.75rem; position: inherit; left: 0px; top: 0px; z-index: 1;}
+    .icon { height: 2.5rem; height: 2.75rem;}
+    .empty-card { height: 9rem;}
+    .cyan { background-color: hsl(180, 62%, 55%); height: .25rem; width: 122%; margin-left: -11% !important; margin-top: -11%;}
+    .red { background-color: hsl(0, 78%, 62%); height: .25rem; width: 122%; margin-left: -11% !important; margin-top: -11%;}
+    .orange { background-color: hsl(34, 97%, 64%); height: .25rem; width: 122%; margin-left: -11% !important; margin-top: -11%;}
+    .blue { background-color: hsl(212, 86%, 64%); height: .25rem; width: 122%; margin-left: -11% !important; margin-top: -11%;}
+  </style>
+</head>
+<body>
+        <section class="top">
+          <div class="title-one">Reliable, efficient delivery</div>
+          <div class="title-two">Powered by Technology</div>
+        
+          <div class="title-three">Our Artificial Intelligence powered tools use millions of project data points 
+          to ensure that your project is successful</div>
+        </section>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-4 pr-0">
+          <div class="empty-card"></div>
+          <div class="card ml-auto shadow border-0 rounded">
+              <hr class="cyan rounded-top">
+              <h5>Supervisor</h5>
+              <p>Monitors activity to identify project roadblocks</p>
+              <img class="icon ml-auto" src="./images/icon-supervisor.svg" alt="teambuilder">
+            </div>
+      </div>
+      <div class="col-4 px-0">
+          <div class="card mx-auto shadow border-0 mb-4 rounded">
+            <hr class="red rounded-top">
+            <h5>Team Builder</h5>
+            <p>Scans our talent network to create the optimal team for your project</p>
+            <img class="icon ml-auto" src="./images/icon-team-builder.svg" alt="teambuilder">
+            </div>
+
+            <div class="card mx-auto shadow border-0 rounded">
+              <hr class="orange rounded-top">
+              <h5>Karma</h5>
+              <p>Regularly evaluates our talent to ensure quality</p>
+              <img class="icon ml-auto" src="./images/icon-karma.svg" alt="teambuilder">
+              </div>
+      </div>
+      <div class="col-4 pl-0">
+          <div class="empty-card"></div>
+          <div class="card mr-auto shadow border-0 rounded">
+            <hr class="blue rounded-top">
+            <h5>Calculator</h5>
+            <p>Uses data from past projects to provide better delivery estimates</p>
+            <img class="icon ml-auto" src="./images/icon-calculator.svg" alt="teambuilder">
+            </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <footer class="mt-5">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Shanda Pinell</a>.
+    </p>
+  </footer>
+</body>
+</html>
